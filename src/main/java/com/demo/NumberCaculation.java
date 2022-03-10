@@ -20,5 +20,7 @@ public class NumberCaculation {
 //		}
 		String s = str.toUpperCase();
 		return s;
+		
+		
 	}
 }
