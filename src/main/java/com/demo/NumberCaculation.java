@@ -14,6 +14,7 @@ public class NumberCaculation {
 	}
 	
 	
+	
 	public String converCase(String str) {
 //		for(int i = 0 ; i < str.length() ; i++) {
 //			int x = str.charAt(i);
