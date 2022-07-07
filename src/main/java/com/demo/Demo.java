@@ -6,4 +6,9 @@ package com.demo;
  */
 public class Demo {
 	private String  st = "testing ";
+	
+	public static void test() {
+		System.out.println("Test From Demo");
+	}
+
 }

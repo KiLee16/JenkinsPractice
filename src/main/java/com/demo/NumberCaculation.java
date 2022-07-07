@@ -4,7 +4,7 @@ package com.demo;
  * @author : Ki Beom Lee
  * @time : 2022. 3. 10.-¿ÀÀü 11:52:36
  */
-public class NumberCaculation {
+public class NumberCaculation extends Demo {
 	public NumberCaculation(){
 		
 	}
@@ -23,7 +23,30 @@ public class NumberCaculation {
 		String s = str.toUpperCase();
 		return s;
 		
-		
-		
+
 	}
+	
+	public static void main(String[] args) {
+		int x = 20 ; 
+//		do {
+//			if(x %2 == 0) {
+//				x /= 2;
+//				System.out.print(x + " ");
+//			} else {
+//				x = x *3 + 1 ;
+//				System.out.print(x + " ");
+//			}
+//		} while (x !=1 );
+		
+		NumberCaculation calc = new NumberCaculation();
+		
+		calc.test();
+	}
+	
+	
+	public static void test() {
+		System.out.println("test from child");
+	}
+	
+	
 }
